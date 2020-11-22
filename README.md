@@ -1,7 +1,7 @@
 # Use-Terraform-to-deploy-your-HELM-Charts on your K8S Cluster  
 How to use Helm provider from Terraform to install Helm Charts on your EKS Cluster
 
-You need to have the below to run Terraform to Deploy your Helm Charts. If you dont have an active EKS, Terraform and Helm on your VM. Follow the below steps. 
+You need to have the below to run Terraform to Deploy your Helm Charts. If you dont have an active EKS, Terraform and Helm on your VM. Follow the below steps or directly jump to Step 7
 
 Setting up a workstation in AWS
 From which we can create and interact with EKS cluster.
@@ -32,3 +32,5 @@ $ cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$HOM
 
 The workstation is ready after above steps.
 
+
+7. 
