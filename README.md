@@ -25,8 +25,10 @@ $ chmod +x ./aws-iam-authenticator
 $ mkdir bin
 $ cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$HOME/bin:$PATH
 
-(4) Install eksctl
-$ curl --silent --location "https://github.com/weaveworks/eksctl/releases/download/latest_release/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
-$ sudo mv /tmp/eksctl /usr/local/bin
+4. Install Terraform : https://learn.hashicorp.com/tutorials/terraform/install-cli
+5. Install HELM : https://helm.sh/docs/intro/install/
+6. Create a EKS : https://learn.hashicorp.com/tutorials/terraform/eks
+
 
 The workstation is ready after above steps.
+
