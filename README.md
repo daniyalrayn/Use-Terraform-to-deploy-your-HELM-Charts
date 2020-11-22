@@ -33,4 +33,14 @@ $ cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$HOM
 The workstation is ready after above steps.
 
 
-7. 
+7. do a git clone from this : https://github.com/daniyalrayn/Use-Terraform-to-deploy-your-HELM-Charts.git
+8. go into the directory and change the main.tf and provider.tf as per your helm chart and EKS Cluster after that do the following:
+terraform init
+terraform plan 
+terraform apply and finally. 
+
+9. kubectl get po -n yournamespace if you have give 
+
+You can see your pods are scheduled which are from your helm charts. 
+
+Drop your comments if you are running into any issues. 
